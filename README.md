@@ -18,7 +18,7 @@ Uninformed searches do not have heuristic values while informed searches do.
 Depth-First search is an uninformed any-path algorithm, it does not guarantee the shortest path.
 
 ### Breadth-First
-Breadth-First search is an uninformed any-path algorithm, it does not guarantee the shortest path. 
+Breadth-First search is uninformed typically any-path algorithm. However in this scenario it does guarantee the shortest path. 
 
 ### Best-First
 Best-First search is an informed any-path algorithm, it does not guarantee the shortest path. 
