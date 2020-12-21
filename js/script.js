@@ -123,6 +123,9 @@ class pathFinder{
             for (let j=0; j<cells.length; j++){
                 let current = cells[j];
                 current.style.pointerEvents = "auto";
+                let clickEvent = document.createEvent ('MouseEvents');
+                clickEvent.initEvent ("mouseup", true, true);
+                current.dispatchEvent (clickEvent);
             }
         }
     }
