@@ -3,16 +3,15 @@
 ### Website Link: https://mmanoah.github.io/Path-Finding-Visualization/
 
 ## How To Use
-The red box with S is the starting node.
 
-The green box with G is the goal node.
-1. You can change the starting and goal node locations by selecting the appropriate selection in the "Change Node" drop down menu and then click on the location you want on the board.
-2. You can add walls by selecting "Wall Node" in the Change Node drop down. Then click down your mouse and drag where you want the walls on the board.
-3. You can change the speed of the visualization by selecting a speed in the "Animation Speed" drop down.
-4. Use random walls to generate random walls
-5. Select an algorithm in the drop down menu.
-6. Press Go
-7. Reset will clear the board
+1. The red box with S is the starting node. The green box with G is the goal node.
+2. You can change the starting and goal node locations by selecting the appropriate selection in the "Change Node" drop down menu and then click on the location you want on the board.
+3. You can add walls by selecting "Wall Node" in the Change Node drop down. Then click down your mouse and drag where you want the walls on the board.
+4. You can change the speed of the visualization by selecting a speed in the "Animation Speed" drop down.
+5. Use random walls to generate random walls
+6. Select an algorithm in the drop down menu.
+7. Press Go
+8. Reset will clear the board
 ## The Algorithms
 Uninformed searches do not have heuristic values while informed searches do.
 ### Depth-First
