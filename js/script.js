@@ -438,19 +438,19 @@ for (let i=0; i<dropdown.length; i++){
         algorithm = this.id;
         switch(algorithm){
             case "depth":
-                searchInfo.innerText = "Depth-First is an UNINFORMED ANY-PATH search algorithm"
+                searchInfo.innerText = "Depth-First is UNINFORMED. Does not guarantee the shortest path."
                 break;
             case "breadth":
-                searchInfo.innerText = "Breadth-First is an UNINFORMED ANY-PATH search algorithm"
+                searchInfo.innerText = "Breadth-First is UNINFORMED. Guarantees the shortest path."
                 break;
             case "bestf":
-                searchInfo.innerText = "Best-First is an INFORMED ANY-PATH algorithm"
+                searchInfo.innerText = "Best-First is INFORMED. Does not guarantee the shortest path."
                 break;
             case "uni":
-                searchInfo.innerText = "Uniform-Cost is an UNINFORMED OPTIMAL-PATH algorithm"
+                searchInfo.innerText = "Uniform-Cost is UNINFORMED. Guarantees the shortest path."
                 break;
             case "astar":
-                searchInfo.innerText = "A* is an INFORMED OPTIMAL-PATH algorithm"
+                searchInfo.innerText = "A* is INFORMED. Guarantees the shortest path."
                 break;
         }
     })
