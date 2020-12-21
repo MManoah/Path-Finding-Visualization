@@ -12,19 +12,19 @@ Website Link:
 7. Reset will clear the board
 ## The Algorithms
 Uninformed searches do not have heuristic values while informed searches do.
-###Depth-First
+### Depth-First
 Depth-First search is an uninformed any-path algorithm, it does not guarantee the shortest path.
 
-###Breadth-First
+### Breadth-First
 Breadth-First search is an uninformed any-path algorithm, it does not guarantee the shortest path. 
 
-###Best-First
+### Best-First
 Best-First search is an informed any-path algorithm, it does not guarantee the shortest path. 
 
-###Uniform-Cost
+### Uniform-Cost
 Uniform-Cost search is an uninformed optimal-path algorithm, it does guarantee the shortest path. 
 
-###A*
+### A*
 A* search is an informed optimal-path algorithm, it does guarantee the shortest path. 
 
 ## Built With
