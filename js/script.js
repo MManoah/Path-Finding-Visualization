@@ -249,7 +249,6 @@ class pathFinder{
                 let num = 0;
                 while (path.length !== 0){
                     let currentNode = path.pop();
-                    console.log(num);
                     num += 1;
                     table.rows[currentNode.row].cells[currentNode.column].classList.add("path");
                     await sleep(animationSpeedSet);
@@ -307,7 +306,6 @@ class pathFinder{
                 path.push(firstParent);
                 while (path.length !== 0) {
                     let currentNode = path.pop();
-                    console.log(currentNode);
                     table.rows[currentNode.row].cells[currentNode.column].classList.add("path");
                     await sleep(animationSpeedSet);
                 }
@@ -365,7 +363,6 @@ class pathFinder{
                 path.push(firstParent);
                 while (path.length !== 0) {
                     let currentNode = path.pop();
-                    console.log(currentNode);
                     table.rows[currentNode.row].cells[currentNode.column].classList.add("path");
                     await sleep(animationSpeedSet);
                 }
