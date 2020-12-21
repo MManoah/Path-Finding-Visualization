@@ -1,0 +1,66 @@
+.navbar{
+    background-color: black;
+}
+.navbar-brand{
+    color: white;
+}
+.nav-link{
+    color: white;
+}
+.nav-item{
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}
+main{
+    margin-top: 6rem;
+    text-align: center;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+td{
+    border: 0.1rem solid black;
+    padding: 1rem;
+    cursor: pointer;
+}
+.hover{
+    transition: background-color 0.3s ease;
+    background-color: #2F3A42;
+}
+.wall{
+    background-color: #2F3A42;
+}
+.nopaddingstart{
+    padding: 1px;
+    text-align: center;
+    background-color: #E95345;
+}
+.nopaddinggoal{
+    padding: 1px;
+    text-align: center;
+    background-color: #67E458;
+}
+.visited{
+    transition: background-color 0.5s ease;
+    background-color: #c354d0;
+}
+.path{
+    transition: background-color 0.5s ease;
+    background-color: #67E458;
+}
+.nopaddingnumber{
+    padding: 0.1rem;
+    text-align: center;
+}
+.startNode{
+    transition: background-color 0.3s ease;
+    background-color: #E95345;
+}
+.goalNode{
+    transition: background-color 0.3s ease;
+    background-color: #67E458;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Path Finding Visualization</title>
+    <meta name="description" content="Path finding visualization">
+    <meta name="author" content="Manoah Mohan">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+          integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#" id="name">Path Finding Visualization</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select An Algorithm
+                            </button>
+                            <div class="dropdown-menu" id="dropdownalg" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item alg-item" id="depth" href="#">Depth-First Search</a>
+                                <a class="dropdown-item alg-item" id="breadth" href="#">Breadth-First Search</a>
+                                <a class="dropdown-item alg-item" id="bestf" href="#">Best-First Search</a>
+                                <a class="dropdown-item alg-item" id="uni" href="#">Uniform-Cost Search</a>
+                                <a class="dropdown-item alg-item" id="astar" href="#">A* Search</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item un-active">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="changeNodeButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Change Node
+                            </button>
+                            <div class="dropdown-menu" id="changeNode" aria-labelledby="animationSpeedDropDown">
+                                <a class="dropdown-item node-item" id="wallNode" href="#">Wall Node (Draggable)</a>
+                                <a class="dropdown-item node-item" id="startNode" href="#">Start Node</a>
+                                <a class="dropdown-item node-item" id="goalNode" href="#">Goal Node</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item un-active">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="animationSpeed" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Animation Speed
+                            </button>
+                            <div class="dropdown-menu" id="animationdrop" aria-labelledby="animationSpeedDropDown">
+                                <a class="dropdown-item speed-item" id="1" href="#">Very Fast</a>
+                                <a class="dropdown-item speed-item" id="3" href="#">Fast</a>
+                                <a class="dropdown-item speed-item" id="15" href="#">Medium</a>
+                                <a class="dropdown-item speed-item" id="50" href="#">Slow</a>
+                                <a class="dropdown-item speed-item" id="300" href="#">Very Slow</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item un-active">
+                        <button type="button" id="RWalls" class="btn btn-secondary">Random Walls</button>
+                    </li>
+                    <li class="nav-item un-active">
+                        <button type="button" id="reset" class="btn btn-secondary">Reset</button>
+                    </li>
+                    <li class="nav-item un-active">
+                        <button type="button" id="start" class="btn btn-success">Go</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <strong><p id="searchinfo"></p></strong>
+        <strong><p id="info">Path Cost: <span id="pathCost"></span></p></strong>
+        <table id="board">
+        </table>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
