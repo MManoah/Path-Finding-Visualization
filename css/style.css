@@ -64,3 +64,6 @@ td{
     transition: background-color 0.3s ease;
     background-color: #67E458;
 }
+.navbar-toggler{
+    border: 1px solid white;
+}
