@@ -4,6 +4,7 @@
 
 ## How To Use
 The red box with S is the starting node.
+
 The green box with G is the goal node.
 1. You can change the starting and goal node locations by selecting the appropriate selection in the "Change Node" drop down menu then clicking on the location you want on the board.
 2. You can add walls by selecting "Wall Node" in the Change Node drop down. Then click down your mouse and drag where you want the walls on the board.
