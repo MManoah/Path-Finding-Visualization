@@ -17,7 +17,7 @@ var currentNode = "wallNode";
 var goal = false;
 var mousedown = false;
 var algorithm = "";
-var animationSpeedSet = 15;
+var animationSpeedSet = 10;
 document.body.onmousedown = function(){
     mousedown = true;
 }
